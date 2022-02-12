@@ -1,0 +1,118 @@
+body{
+    background-color: crimson;
+}
+.navbar{
+    background-color: crimson !important;
+}
+.navbar-brand{
+    color: white!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.jumbotron{
+    background-image: url(img/vestido3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: coral;
+    text-transform: capitalize;
+    margin: 0;
+}
+.jumbotron h1{
+    color: crimson;
+    text-transform: capitalize;
+}
+.btn btn-danger{
+    background-color: rgb(156, 12, 41);
+}
+.btn btn-danger:hover{
+    background-color: rgb(83, 5, 21);
+}
+h2{
+    text-align: center;
+    background-color: crimson;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.card-text{
+    color: crimson;
+}
+.prod_row{
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    border: 1px solid crimson;
+    margin: 4%;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.contacto{
+    display: inline-block;
+    padding-bottom: 20px;
+    min-height: 200px;
+    width: 100%;
+    background-color: rgb(231, 85, 114);
+    
+}
+.form-control{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.col-dir{
+    text-align: right;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: crimson!important;
+    background-color: rgb(124, 121, 121);
+    width: 15px;
+    
+}
+.carousel-item active{
+    height: 400px !important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+  
+    float: right;
+    
+}
+.carousel-inner{
+    height: 500px;
+    
+}
+.carousel-inner img{
+    width: 75%;
+    height: 75%;
+       
+}
+.container {
+    padding-left: 100px;
+}
+footer{
+    height: 150px;
+}
+footer h2{
+    padding: 10px;
+    background-color: white;
+}
+footer p{
+    color: white;
+}
+.navbar-brand{
+    color: white!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    background-color: crimson;
+}.container1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
